@@ -1,5 +1,5 @@
 {
-  "name": "learnstorybook-design-system",
+  "name": "langchain-next",
   "version": "0.1.0",
   "private": true,
   "resolutions": {
@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.0.3",
+    "class-variance-authority": "^0.4.0",
+    "dotenv": "^16.0.3",
     "langchain": "^0.0.44",
     "next": "^13.2.4",
     "react": "18.2.0",

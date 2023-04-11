@@ -18,5 +18,13 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  webpack: (config) => {
+    // Enable the top-level-await experiment
+    config.experiments = {
+      topLevelAwait: true,
+      layers: true,
+    };
+    return config;
+  },
 };
 export default config;
